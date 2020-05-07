@@ -1,0 +1,24 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Teachers' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Indexzone
+  	pod 'Alamofire', '~> 4.7'
+	pod 'GoogleMaps'
+	pod 'Cosmos'
+	pod 'SwiftyJSON'
+	pod 'IQKeyboardManagerSwift'
+	pod 'PKHUD', '~> 5.0'
+	pod 'GooglePlaces'
+  	pod 'GooglePlacePicker'
+  	pod 'SDWebImage/WebP'
+	pod 'ImageSlideshow', '~>1.6.0'
+	pod 'UITextView+Placeholder'
+    pod 'SwiftGifOrigin', '~> 1.7.0'
+	pod 'ImageSlideshow/SDWebImage'
+	pod 'Google-Mobile-Ads-SDK'
+
+end
